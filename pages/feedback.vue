@@ -1,5 +1,5 @@
 <template>
-	
+	<FeedbackForm />
 </template>
 
 <script setup></script>
