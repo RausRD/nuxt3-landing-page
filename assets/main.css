@@ -1,0 +1,62 @@
+/* Resetting predefined styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+section,
+ul,
+li,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define css global variables */
+:root {
+  --text-color-primary: #23153e;
+  --text-color-secondary: #443a5a;
+  --text-color-placeholder: #888;
+  --color-accent: #6750a4;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color-primary);
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
