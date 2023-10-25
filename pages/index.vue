@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<h1>Landing page</h1>
+		<BannerSection />
+		<WorkInfoSection />
+		<PregnancyInfoSection />
+		<BlogPostsSection />
+		<SendFormSection />
 	</div>
 </template>
 
@@ -8,6 +12,4 @@
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
